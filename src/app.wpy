@@ -1,11 +1,8 @@
 <style lang="less">
-.container {
+page {
+  width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
+  background: #faf8f0;
 }
 </style>
 
@@ -27,7 +24,7 @@ export default class extends wepy.app {
   }
 
   globalData = {
-    userInfo: null
+    matrix: [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
   }
 
   constructor () {
