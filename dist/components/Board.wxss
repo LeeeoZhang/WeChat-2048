@@ -1,0 +1,2 @@
+@import "./Row.wxss";
+.board{width:600rpx;height:600rpx;font-size:50rpx;color:#fff;background:#b9ada1;border-radius:5rpx;margin:0 auto}
